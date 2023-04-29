@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="327.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VistaController">
+   <children>
+      <Label layoutX="32.0" layoutY="25.0" prefHeight="17.0" prefWidth="239.0" text="Escribe lo que quieras" />
+      <TextArea fx:id="txtArea" layoutX="28.0" layoutY="95.0" prefHeight="169.0" prefWidth="441.0" />
+      <Button fx:id="btnAccion" layoutX="417.0" layoutY="275.0" mnemonicParsing="false" onAction="#Accion" text="Accion" />
+      <TextField fx:id="txtIngre" layoutX="32.0" layoutY="52.0" prefHeight="25.0" prefWidth="441.0" />
+   </children>
+</AnchorPane>
